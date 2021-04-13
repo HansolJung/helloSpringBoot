@@ -11,4 +11,9 @@ public class HelloWorldController {
     }
 
 
+    @GetMapping("/hi")
+    public String sayHi() {
+        return "index";
+    }
+
 }
